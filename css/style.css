@@ -648,3 +648,76 @@ body.login-page {
 .logout:hover {
   background-color: #d84343;
 }
+
+/* Untuk halaman daftar */
+body.daftar-page {
+  background: linear-gradient(135deg, #6e39f2, #f063b8);
+  font-family: 'Segoe UI', sans-serif;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.form-wrapper {
+  background: white;
+  padding: 30px;
+  border-radius: 15px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+  width: 350px;
+}
+
+.form-wrapper h2 {
+  text-align: center;
+  margin-bottom: 20px;
+  color: #6e39f2;
+}
+
+.form-wrapper input[type="text"],
+.form-wrapper input[type="password"] {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+}
+
+.form-wrapper button {
+  width: 100%;
+  padding: 10px;
+  background: #6e39f2;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.form-wrapper button:hover {
+  background: #5a2ed0;
+}
+
+.pesan {
+  margin-top: 15px;
+  color: red;
+  text-align: center;
+}
+
+.pesan a {
+  color: #6e39f2;
+  text-decoration: underline;
+}
+
+.login-link {
+  text-align: center;
+  margin-top: 15px;
+  font-size: 14px;
+}
+
+.login-link a {
+  color: #6e39f2;
+  text-decoration: underline;
+  font-weight: bold;
+}

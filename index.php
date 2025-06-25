@@ -10,7 +10,7 @@
     <!-- BAGIAN KIRI -->
     <div class="login-left">
       <img src="pictures\icon_login.png" alt="Gambar Login">
-      <h1>HAI WELCOME TO WEBSITE</h1>
+      <h1>WELCOME TO HEALTHY HEART</h1>
       <p>Healthy Heart adalah aplikasi untuk mendeteksi dan memantau tingkat stres 
         agar kamu bisa menjaga kesehatan jiwa secara mandiri dan lebih sadar akan kondisi emosionalmu.</p>
     </div>
